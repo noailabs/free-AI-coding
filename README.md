@@ -104,7 +104,6 @@ print()
 
 ### llm-cli.py
 ```python
-%%writefile llm-cli.py
 import argparse
 import os
 import sys
