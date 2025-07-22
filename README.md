@@ -104,6 +104,7 @@ print()
 
 ### llm-cli.py
 ```python
+%%writefile llm-cli.py
 import argparse
 import os
 import sys
@@ -291,14 +292,23 @@ Usage Examples:
 
     # Get prompt content (priority: --prompt_file > --prompt. Then combine with stdin)
     primary_prompt_content = None
-    if args.prompt_file:
-      primary_prompt_content = _read_content_from_file(args.prompt_file)
     if args.prompt:
-      primary_prompt_content = f"{args.prompt.strip()}\n\n{primary_prompt_content.strip()}"
+      primary_prompt_content = args.prompt
+
+    if args.prompt_file:
+      prompt_file_content = _read_content_from_file(args.prompt_file)
+      if prompt_file_content:
+        if primary_prompt_content:
+          primary_prompt_content = f"{primary_prompt_content}\n\n{prompt_file_content}"
+        else:
+          primary_prompt_content = prompt_file_content
 
     stdin_content = _read_content_from_stdin()
     if stdin_content:
-      primary_prompt_content = f"{stdin_content.strip()}\n\n{primary_prompt_content.strip()}"
+      if primary_prompt_content:
+        primary_prompt_content = f"{stdin_content}\n\n{primary_prompt_content}"
+      else:
+        primary_prompt_content = stdin_content
 
     if not primary_prompt_content:
         print("Error: No prompt provided. Use --prompt, --prompt_file, or pipe content to stdin.", file=sys.stderr)
@@ -381,6 +391,12 @@ if __name__ == "__main__":
 
 ### Analyze llm-cli.py itself
 ```bash
-!python llm-cli.py -p "analyze this code, suggest improvements:" -v --prompt_file llm-cli.py --dry
+python llm-cli.py -p "analyze this code, suggest improvements:" -v --prompt_file llm-cli.py --dry
+```
+
+### Include specifications for AI coding in context
+```bash
+wget https://github.com/google/adk-python/blob/main/llms-full.txt
+
 ```
 
