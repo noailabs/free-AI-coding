@@ -1,7 +1,7 @@
 # Free AI coding
 Future of coding is writing specifications (AGENTS.md)
 
-There a lot of AI-coding agents and tools (free of commercial):  
+There are many AI coding agents and tools available (free of commercial):  
 - [claude-code](https://github.com/anthropics/claude-code)
 - [gemini-cli](https://github.com/google-gemini/gemini-cli)
 - [codex](https://github.com/openai/codex)
