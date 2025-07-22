@@ -63,7 +63,7 @@ def llmp(prompt):
   return llm(messages)
 ```
 
-### Generate llm-cli.py spec
+### Write minimal llm-cli.py (llm cli tool) spec and generate code
 ```python
 SPEC="""# llm-cli.py specification file
 llm-cli.py – A tiny, robust CLI wrapper for OpenAI-compatible chat endpoints.
