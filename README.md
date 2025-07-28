@@ -13,6 +13,7 @@ There are many AI coding agents and tools available (free and commercial):
 - [Cursor](https://cursor.com/)
 - [Windsurf](https://windsurf.com/)
 - [Kiro](https://kiro.dev/)
+- [Forge](https://forgecode.dev/)
 - ...
   
 But you can do AI coding absolutely free, without any IDEs, editors, or agents. You just need access to the latest, most capable models via the web or an API.
