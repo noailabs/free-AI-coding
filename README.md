@@ -2,6 +2,7 @@
 Future of coding is writing specifications (AGENTS.md).
 
 There are many AI coding agents and tools available (free and commercial):  
+- [crush](https://github.com/charmbracelet/crush)
 - [qwen-code](https://github.com/QwenLM/qwen-code)
 - [claude-code](https://github.com/anthropics/claude-code)
 - [gemini-cli](https://github.com/google-gemini/gemini-cli)
