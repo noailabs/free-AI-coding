@@ -12,9 +12,12 @@ There are many AI coding agents and tools available (free and commercial):
 - [Roo-Code](https://github.com/RooCodeInc/Roo-Code)
 - [Cline](https://github.com/cline/cline)
 - [Cursor](https://cursor.com/)
+- [cursor-agent](https://cursor.com/cli)
 - [Windsurf](https://windsurf.com/)
 - [Kiro](https://kiro.dev/)
 - [Forge](https://forgecode.dev/)
+- [groq-code-cli](https://github.com/build-with-groq/groq-code-cli)
+- [octofriend](https://github.com/synthetic-lab/octofriend)
 - ...
   
 But you can do AI coding absolutely free, without any IDEs, editors, or agents. You just need access to the latest, most capable models via the web or an API.
