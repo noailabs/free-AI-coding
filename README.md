@@ -18,6 +18,8 @@ There are many AI coding agents and tools available (free and commercial):
 - [Forge](https://forgecode.dev/)
 - [groq-code-cli](https://github.com/build-with-groq/groq-code-cli)
 - [octofriend](https://github.com/synthetic-lab/octofriend)
+- [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
+- [qoder](https://qoder.com/)
 - ...
   
 But you can do AI coding absolutely free, without any IDEs, editors, or agents. You just need access to the latest, most capable models via the web or an API.
