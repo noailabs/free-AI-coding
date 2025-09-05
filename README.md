@@ -20,6 +20,7 @@ There are many AI coding agents and tools available (free and commercial):
 - [octofriend](https://github.com/synthetic-lab/octofriend)
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
 - [qoder](https://qoder.com/)
+- [Amazon Q CLI](https://github.com/aws/amazon-q-developer-cli)
 - ...
   
 But you can do AI coding absolutely free, without any IDEs, editors, or agents. You just need access to the latest, most capable models via the web or an API.
