@@ -23,7 +23,8 @@ There are many AI coding agents and tools available (free and commercial):
 - [Amazon Q CLI](https://github.com/aws/amazon-q-developer-cli)
 - [codebuff](https://www.codebuff.com/)
 - [zoer.ai](https://zoer.ai/)
-- [aws kiro](https://kiro.dev/)
+- [kiro](https://kiro.dev/)
+- [ampcode](https://ampcode.com/manual)
 - ...
   
 But you can do AI coding absolutely free, without any IDEs, editors, or agents. You just need access to the latest, most capable models via the web or an API.
