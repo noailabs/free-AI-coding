@@ -33,6 +33,7 @@ There are many AI coding agents and tools available (free and commercial):
 - ...
 - [shannon](https://github.com/KeygraphHQ/shannon) // Fully autonomous AI hacker to find actual exploits in your web apps
 - [gokin](https://github.com/ginkida/gokin)
+- [mastra](https://github.com/mastra-ai/mastra)
   
 But you can do AI coding absolutely free, without any IDEs, editors, or agents. You just need access to the latest, most capable models via the web or an API.
 
